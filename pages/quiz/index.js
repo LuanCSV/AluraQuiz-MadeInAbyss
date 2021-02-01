@@ -10,25 +10,73 @@ import Button from '../../src/components/Button';
 import BackLinkArrow from '../../src/components/BackLinkArrow';
 
 function ResultWidget({ results }) {
+  const somaAcertos = (resultados) => {
+    const soma = resultados.reduce((somatoriaAtual, resultAtual) => {
+      const isAcerto = resultAtual === true;
+      if (isAcerto) {
+        return somatoriaAtual + 1;
+      }
+      return somatoriaAtual;
+    }, 0);
+
+    return soma;
+  };
+
+  const renderSwitch = (result) => {
+    let resultadoTexto;
+    switch (result) {
+      case 0:
+        resultadoTexto = 'Você tem sorte...';
+        break;
+      case 1:
+        resultadoTexto = 'Tontura e leves náuseas.';
+        break;
+      case 2:
+        resultadoTexto = 'Náusea pesada, dor de cabeça e entorpecimento dos membros.';
+        break;
+      case 3:
+        resultadoTexto = 'Vertigem combinada com alucinações visuais e auditivas.';
+        break;
+      case 4:
+        resultadoTexto = 'Intensa dor no corpo inteiro e hemorragia de cada orifício do corpo';
+        break;
+      case 5:
+        resultadoTexto = 'Perda temporária de todos os 5 sentidos, confusão e comportamento de automutilação.';
+        break;
+      case 6:
+        resultadoTexto = 'Alterações corporais devastadoras que resultam na perda da humanidade e, muitas vezes, à morte.';
+        break;
+      case 7:
+        resultadoTexto = 'Morte certa.';
+        break;
+
+      default:
+        break;
+    }
+    return resultadoTexto;
+  };
+
   return (
     <Widget>
       <Widget.Header>
         <BackLinkArrow href="/" />
         Fundo do abyss
       </Widget.Header>
-
+      <img
+        alt="Descrição"
+        style={{
+          width: '100%',
+          height: '150px',
+          objectFit: 'cover',
+        }}
+        src="https://i.pinimg.com/originals/4d/6a/60/4d6a6002a902e90948a9ade08fb14dc3.gif"
+      />
       <Widget.Content>
         <p>
-          Voce acertou
+          Você acertou
           {' '}
           {/* espaco */}
-          {results.reduce((somatoriaAtual, resultAtual) => {
-            const isAcerto = resultAtual === true;
-            if (isAcerto) {
-              return somatoriaAtual + 1;
-            }
-            return somatoriaAtual;
-          }, 0)}
+          {somaAcertos(results)}
           {/* espaco */}
           &nbsp; das
           {' '}
@@ -36,7 +84,17 @@ function ResultWidget({ results }) {
           {' '}
           perguntas!
         </p>
-        <ul>
+        <p>
+          Sua maldição do abismo é:
+        </p>
+        <p>{renderSwitch(somaAcertos(results))}</p>
+        <br />
+
+        <p>
+          Caso não tenha assistido Made in Abyss,
+          recomendo de verdade, melhor anime na minha opinião.
+        </p>
+        {/* <ul>
           {results.map((result, index) => (
             <li key={Math.random(index)}>
               {`#${index + 1} questao: `}
@@ -44,7 +102,7 @@ function ResultWidget({ results }) {
               {result === true ? 'Acertou' : 'Errou'}
             </li>
           ))}
-        </ul>
+        </ul> */}
       </Widget.Content>
     </Widget>
   );

@@ -1,45 +1,115 @@
 {
-    "bg": "https://miro.medium.com/max/2994/1*c8RaPdK_JmcOO2BPDxxrRA.jpeg",
-    "title": "Quiz Made in Abyss da Alura",
-    "description": "Teste os seus conhecimentos sobre Made in Abyss",
-    "questions": [
-      {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
-        "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
-        ]
-      },
-      {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
-        "answer": 0,
-        "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
-        ]
-      }
-    ],
-    "external": [
-      "https://aluraquiz-base.alura-challenges.vercel.app/",
-      "https://aluraquiz-css.omariosouto.vercel.app/",
-      "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
-    ],
-    "theme": {
-      "colors": {
-        "primary": "#f1a002",
-        "secondary": "#e7520a",
-        "mainBg": "#1b232d",
-        "contrastText": "#FFFFFF",
-        "wrong": "#ba2727",
-        "success": "#3daa42"
-      },
-      "borderRadius": "4px"
+  "bg": "https://miro.medium.com/max/2994/1*c8RaPdK_JmcOO2BPDxxrRA.jpeg",
+  "title": "Quiz Made in Abyss da Alura",
+  "description": "Teste os seus conhecimentos sobre Made in Abyss",
+  "questions": [
+    {
+      "image": "https://66.media.tumblr.com/a144a09ed33a712f95c0f43d3d38588f/tumblr_ox51yvPSlR1urooiqo2_500.gifv",
+      "title": "Qual o apito de classe mais baixa?",
+      "description": "Não levarei os 'sinos' de aprendizes de explores em consideração.",
+      "answer": 2,
+      "alternatives": [
+        "Apito da Lua",
+        "Apito Azul",
+        "Apito Vermelho",
+        "Apito Branco",
+        "Apito Negro"
+      ]
+    },
+    {
+      "image": "https://pa1.narvii.com/6596/c0ca98a0bc4984be112e2afc81d1465efdcf87a7_hq.gif",
+      "title": "Quantos metros de profundidade tem o Abyss?",
+      "description": "Realmente o Abyss é um abismo",
+      "answer": 4,
+      "alternatives": [
+        "1.350 metros",
+        "7.000 metros",
+        "15.500 metros",
+        "20.000 metros",
+        "Além de 20.000 metros"
+      ]
+    },
+    {
+      "image": "http://pa1.narvii.com/6676/d12774c169565edad55d1811714d4378f58d7bb6_00.gif",
+      "title": "Qual o nome da cidade à beira do abismo?",
+      "description": "Osasco?",
+      "answer": 0,
+      "alternatives": [
+        "Orth",
+        "Idofront",
+        "Maelstrom",
+        "Osasco",
+        "Belchero"
+      ]
+    },
+    {
+      "image": "https://pa1.narvii.com/6584/db0dbbe52e041a03b8dc37821795da8d919d4627_hq.gif",
+      "title": "Qual o nome da criatura que ataca a Riko e o Nat no primeiro episódio?",
+      "description": "Um lugar acolhedor.",
+      "answer": 5,
+      "alternatives": [
+        "Nakikabane",
+        "Inbyos ",
+        "Bico-de-Martelo",
+        "Gogouge ",
+        "Tamaugachi ",
+        "Madokajacks ",
+        "Mandíbula Escarlate"
+      ]
+    },
+    {
+      "image": "https://i.imgur.com/a8uxHI8.gif",
+      "title": "Atualmente, quem é o aprendiz de Ozen?",
+      "description": "Sorte ou azar ser aprendiz dessa mulher?",
+      "answer": 2,
+      "alternatives": [
+        "Lyza",
+        "Riko",
+        "Marulk",
+        "Regu",
+        "Nat",
+        "Prushka"
+      ]
+    },
+    {
+      "image": "https://i.imgur.com/a8uxHI8.gif",
+      "title": "Atualmente, quem é o aprendiz de Ozen?",
+      "description": "Sorte ou azar ser aprendiz dessa mulher?",
+      "answer": 2,
+      "alternatives": [
+        "Lyza",
+        "Riko",
+        "Marulk",
+        "Regu",
+        "Nat",
+        "Prushka"
+      ]
+    },
+    {
+      "image": "https://thumbs.gfycat.com/LoneHeavyAnnelida-max-1mb.gif",
+      "title": "Bondrewd é um bom pai?",
+      "description": "Subarashi",
+      "answer": 0,
+      "alternatives": [
+        "Sim",
+        "Não"
+      ]
     }
+  ],
+  "external": [
+    "https://aluraquiz-base.alura-challenges.vercel.app/",
+    "https://aluraquiz-css.omariosouto.vercel.app/",
+    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#f1a002",
+      "secondary": "#e7520a",
+      "mainBg": "#1b232d",
+      "contrastText": "#FFFFFF",
+      "wrong": "#ba2727",
+      "success": "#3daa42"
+    },
+    "borderRadius": "4px"
   }
+}
