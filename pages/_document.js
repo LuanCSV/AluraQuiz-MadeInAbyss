@@ -1,4 +1,5 @@
-import React from 'react';
+/* eslint-disable react/jsx-filename-extension */
+/* eslint-disable react/react-in-jsx-scope */
 import Document from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
