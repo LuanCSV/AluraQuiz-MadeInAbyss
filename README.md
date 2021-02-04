@@ -1,6 +1,7 @@
 ![alt text](https://i.imgur.com/1yLdune.png)
 
-[https://alura-quiz-made-in-abyss.luancsv.vercel.app]
+Faça seu teste:
+https://alura-quiz-made-in-abyss.luancsv.vercel.app
 
 # Quiz Made in Abyss with Next.js
 
