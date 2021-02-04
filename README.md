@@ -1,4 +1,4 @@
-![alt text](blob:https://vercel.com/4a8c08cc-8b96-485d-93a2-3c847513889a)
+![alt text](https://i.imgur.com/1yLdune.png)
 
 # Quiz Made in Abyss with Next.js
 
